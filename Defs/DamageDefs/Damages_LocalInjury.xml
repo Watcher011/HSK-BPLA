@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<DamageDef ParentName="CutBase">
+		<defName>neurotoxin</defName>
+		<label>Нейротоксин</label>
+		<deathMessage>{0} умер от остановки сердца.</deathMessage>
+		<hediffSkin>TaserStab</hediffSkin>
+		<hediffSolid>TaserStab</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>MuscleSpasms</hediff>
+				<severityPerDamageDealt>0.9</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<modExtensions>		
+			<li Class="CombatExtended.DamageDefExtensionCE">
+				<harmOnlyOutsideLayers>false</harmOnlyOutsideLayers>
+			</li>	
+		</modExtensions>					
+	</DamageDef>
+
+
+
+	
+</Defs>
