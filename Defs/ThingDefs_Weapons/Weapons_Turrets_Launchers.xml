@@ -22,7 +22,6 @@
 		</statBases>
 		<weaponTags>
 			<li>Artillery</li>
-			<li>Artillery_BaseDestroyer</li>
 		</weaponTags>
 		<verbs>
 				<li Class="CombatExtended.VerbPropertiesCE">

@@ -70,7 +70,7 @@
 		<statBases>
 			<MarketValue>384.6</MarketValue>
 		</statBases>
-		<generateAllowChance>0.7</generateAllowChance>
+		<generateAllowChance>0.0</generateAllowChance>
 		<ammoClass>GrenadeHE</ammoClass>
 		<detonateProjectile>Bullet_DroneHowitzerShell_HE</detonateProjectile>
 	</ThingDef>
@@ -91,7 +91,7 @@
 			<li>RewardStandardHighFreq</li>
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
-		<generateAllowChance>0.3</generateAllowChance>
+		<generateAllowChance>0.0</generateAllowChance>
 		<detonateProjectile>Bullet_DroneHowitzerShell_EMI</detonateProjectile>
 	</ThingDef>
 
@@ -107,6 +107,10 @@
 			<MarketValue>673.94</MarketValue>
 		</statBases>
 		<ammoClass>Mine</ammoClass>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
 		<generateAllowChance>0</generateAllowChance>
 		<detonateProjectile>Bullet_DroneHowitzerShell_MIN</detonateProjectile>
 	</ThingDef>
@@ -122,6 +126,11 @@
 		<statBases>
 			<MarketValue>584.6</MarketValue>
 		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<generateAllowChance>0</generateAllowChance>
 		<ammoClass>FLMine</ammoClass>
 		<detonateProjectile>Bullet_DroneHowitzerShell_GRAN</detonateProjectile>
 	</ThingDef>
